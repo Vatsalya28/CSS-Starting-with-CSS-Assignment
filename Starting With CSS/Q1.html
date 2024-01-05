@@ -1,0 +1,40 @@
+<!-- 1.Create a simple page with some div tags and show different ways to add 
+CSS as well as what happens when you target the 
+same elements with inline, internal, and external CSS. 
+Also, utilize comments in the project where required. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <link rel="stylesheet" href="./Q1.css">
+    <style>
+        .Example h1{
+            background-color: red;
+            text-decoration-color: white;
+            font-family: Arial;
+        }
+        .Example p{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="Example">
+        <h1>My name is Vatsalya</h1>
+        <p>I'm learning Full Stack Web Development</p>
+    </div>
+    <div>
+        <h1 style="background-color: green;">Neymar Jr</h1>
+    </div>
+
+    <div class="External">
+        <h1>Lionel Messi</h1>
+        <p>My favorite Footballer</p>
+    </div>
+</body>
+</html>
